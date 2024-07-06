@@ -1,0 +1,476 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+.main{
+    background: url("/assets/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: max(1800px,100vw);
+    height: 100vh;
+    /* background-size: cover; */
+}
+.main .box{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+}
+.main nav{
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.main nav .logo img{
+    width: 140px;
+    position: relative;
+    z-index: 1;
+}
+.main .nav-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.eng{
+    position: relative;
+    z-index: 1;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign{
+    position: relative;
+    z-index: 1;
+    padding: 4px 10px;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid gray;
+    background-color: red;
+    font-weight: 600;
+    font-size: 14px;
+}
+.main .content{
+    color: white;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 80px);
+    width: 70vw;
+    margin: auto;
+    gap: 20px;
+    text-align: center;
+}
+.main .content .first{
+    font-size: 45px;
+    font-weight: 600;
+}
+.main .content .second{
+    font-size: 28px;
+}
+.main .content .third{
+    font-size: 24px;
+}
+.main .content .last input{
+    padding: 15px 160px 15px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.397);
+    position: relative;
+    z-index: 1;
+}
+.main .content .last button{
+    padding: 15px 40px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+.separation{
+    height: 5px;
+    background-color: rgb(44, 44, 44);
+}
+.section-2{
+    min-height: 70vh;
+    width: 80vw;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-2 .one{
+    width: 35vw;
+}
+.section-2 .one .first{
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+.section-2 .one .last{
+    font-size: 22px;
+}
+.section-2 .two{
+    position: relative;
+}
+.section-2 .two img{
+    width: 500px
+}
+.section-2 .two video{
+    position: absolute;
+    z-index: -1;
+    top: 80px;
+    right: 70px;
+    width: 360px;
+}
+.section-3{
+    min-height: 70vh;
+    width: 80vw;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-3 .one{
+    position: relative;
+}
+.section-3 .one img{
+    width: 500px;
+}
+.section-3 .two{
+    width: 40vw;
+}
+.section-3 .two .first{
+    font-weight: 600;
+    font-size: 45px;
+    padding-bottom: 18px;
+}
+.section-3 .two .last{
+    font-size: 22px;    
+}
+.section-3 .one .boxshot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid gray;
+    border-radius: 13px;
+    width: 260px;
+    padding: 10px;
+    position: absolute;
+    top: 260px;
+    left: 105px;
+    background-color: black;
+}
+.boxshot span .st{
+    font-size: 15px;
+    padding-bottom: 4px;
+}
+.boxshot span .down{
+    font-size: 13px;
+    color: blue;
+}
+.section-3 .one .boxshot img{
+    width: 50px;
+}
+.section-4{
+    min-height: 70vh;
+    width: 80vw;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-4 .one{
+    width: 40vw;
+}
+.section-4 .one .first{
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+.section-4 .one .last{
+    font-size: 22px;
+}
+.section-4 .two{
+    position: relative;
+}
+.section-4 .two img{
+    width: 500px;
+}
+.section-4 .two video{
+    position: absolute;
+    z-index: -1;
+    top: 40px;
+    right: 100px;
+    width: 300px;
+}
+.section-5{
+    min-height: 70vh;
+    width: 80vw;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-5 .one img{
+    width: 500px;
+}
+.section-5 .two{
+    width: 40vw;
+}
+.section-5 .two .first{
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+.section-5 .two .last{
+    font-size: 22px;    
+}
+.section-6{
+    width: 80vw;
+    min-height: 100vh;
+    margin: auto;
+    color: white;
+}
+.section-6 .first{
+    font-size: 45px;
+    font-weight: 600;
+    padding: 50px 0px 20px 0px;
+    text-align: center;
+}
+.section-6 .faq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(58, 57, 57);
+    font-size: 20px;
+}
+.section-6 .faq .img img{
+    width: 40px;
+    filter: invert(100%);
+}
+.section-6 .mid{
+    text-align: center;
+    font-size: 19px;
+    padding: 30px 0px 20px 0px;
+}
+.section-6 .last{
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.section-6 .last input{
+    padding: 10px 100px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+}
+.section-6 .last button{
+    padding: 8px 20px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+footer{
+    color: rgb(212, 209, 209);
+    width: 70vw;
+    margin: auto;
+    padding: 50px;
+    font-size: 12px;
+}
+footer div{
+    padding-bottom: 10px;
+}
+footer .foot-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .foot-flex ul li{
+    list-style: none;
+    padding: 10px 0px;
+}
+footer .foot-flex ul li a{
+    color: rgb(212, 209, 209);
+}
+footer .netflix{
+    padding: 10px 0px;
+}
+@media only screen and (max-width:1000px) {
+    .main{
+        /* background-size: cover; */
+    }
+    .main nav{
+        max-width: 80vw;
+    }
+    .main nav .logo img{
+        width: 100px;
+    }
+    .main .content .first{
+        font-size: 35px;
+    }
+    .main .content .second{
+        font-size: 22px;
+    }
+    .main .content .third{
+        font-size: 18px;
+    }
+    .section-2{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+    }
+    .section-2 .one{
+        width: 70vw;
+    }
+    .section-2 .one .first{
+        font-size: 35px;
+    }
+    .section-2 .one .last{
+        font-size: 18px;
+    }
+    .section-2 .two{
+        position: relative;
+    }
+    .section-2 .two img{
+        width: 350px
+    }
+    .section-2 .two video{
+        position: absolute;
+        z-index: -1;
+        top: 60px;
+        right: 50px;
+        width: 250px;
+    }
+    .section-3{
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+    }
+    .section-3 .two{
+        width: 70vw;
+    }
+    .section-3 .two .first{
+        font-size: 35px;
+    }
+    .section-3 .two .last{
+        font-size: 18px;
+    }
+    .section-3 .one{
+        position: relative;
+    }
+    .section-3 .one img{
+        width: 400px;
+    }
+    .section-3 .one .boxshot{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid gray;
+        border-radius: 13px;
+        width: 220px;
+        padding: 10px;
+        position: absolute;
+        top: 200px;
+        left: 85px;
+        background-color: black;
+    }
+    .boxshot span .st{
+        font-size: 15px;
+        padding-bottom: 4px;
+    }
+    .boxshot span .down{
+        font-size: 13px;
+        color: blue;
+    }
+    .section-3 .one .boxshot img{
+        width: 40px;
+    }
+    .section-4{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+    .section-4 .one{
+        width: 70vw;
+    }
+    .section-4 .one .first{
+        font-size: 35px;
+    }
+    .section-4 .one .last{
+        font-size: 18px;
+    }
+    .section-4 .two{
+        position: relative;
+    }
+    .section-4 .two img{
+        width: 350px;
+    }
+    .section-4 .two video{
+        position: absolute;
+        z-index: -1;
+        top: 35px;
+        right: 75px;
+        width: 200px;
+    }    
+    .section-5{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+    .section-5 .one img{
+        width: 400px;
+    }
+    .section-5 .two{
+        width: 70vw;
+    }
+    .section-5 .two .first{
+        font-size: 35px;
+    }
+    .section-5 .two .last{
+        font-size: 18px;
+    }
+    
+}
